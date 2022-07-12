@@ -1,0 +1,365 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.82.90
+# Built for i686-pc-mingw32
+# Copyright (C) 1988-2012 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Tue Jul 12 19:55:56 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# environment
+WSLENV = WT_SESSION::WT_PROFILE_ID
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+LIBCLANG_PATH = D:\development\LLVM\bin\libclang.dll
+# environment
+NLTK_DATA = C:\Users\86157\AppData\Roaming\nltk_data\corpora
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# environment
+WIN_MAJOR_VERSION = 6
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := d:/work/code-slicer
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ONEDRIVE = C:\Users\86157\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+# environment
+STARSHIP_SESSION_KEY = bkHmaZdXDfGqg45Q
+# environment
+GO111MODULE = on
+# environment
+TMP = C:\Users\86157\AppData\Local\Temp
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_CWD = D:\work\code-slicer
+# environment
+GOPROXY = https://goproxy.cn
+# environment
+PATH = C:\Program Files\Common Files\Oracle\Java\javapath;D:\development\python3\Scripts\;D:\development\python3\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;D:\development\Go\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\development\nodejs\;D:\development\Git\cmd;C:\Program Files\starship\bin\;C:\Users\86157\AppData\Local\Microsoft\WindowsApps;D:\development\Rust\cargo\bin;C:\Users\86157\.dotnet\tools;C:\Users\86157\AppData\Local\Programs\Microsoft VS Code\bin;D:\Software\Microsoft VS Code\bin;D:\development\MinGW\bin;D:\development\LLVM\bin;D:\development\sqlite\sqlite-tools;D:\development\flutter\bin;D:\development\vcpkg\vcpkg-master;D:\development\vcpkg\vcpkg-master\downloads\cmake-3.22.1-windows-x86_64\bin;D:\development\vcpkg\sciter.dll;D:\development\protoc-3.20.0-win64\bin;C:\Users\86157\AppData\Roaming\npm;C:\Users\86157\.fly\bin;C:\Users\86157\AppData\Local\Microsoft\WindowsApps;D:\development\java\bin;D:\development\jdk\bin;D:\development\qemu;C:\Users\86157\AppData\Local\bin\NASM;C:\Users\86157\AppData\Local\GitHubDesktop\bin
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+LC_ALL = C
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132811707332820479
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\86157
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# makefile
+MAKEFILE_LIST := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+GOPATH = D:\code\go_code
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+LIB = D:\development\WpdPack\Lib\x64
+# environment
+RUSTUP_DIST_SERVER = https://mi 
+rrors.ustc.edu.cn/rust-static
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver
+# environment
+NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
+# automatic
+%F = $(notdir $%)
+# environment
+WINDOWS_VERSION = 6.02
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_20152_LQJZFKPVHHOTNLJP
+# environment
+WIN_MINOR_VERSION = 2
+# environment
+COMPUTERNAME = LAPTOP-6KEM1RO2
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+NVCUDASAMPLES_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.1
+# environment
+ASL.LOG = Destination=file
+# environment
+RUSTUP_HOME = D:\development\Rust\rustup
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+WT_SESSION = 122dd793-a384-47f3-b0ba-65c7c147d490
+# environment
+USERNAME = 86157
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\86157\AppData\Roaming\Code\CachedData\92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\LAPTOP-6KEM1RO2
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = LAPTOP-6KEM1RO2
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+JAVA_HOME = D:\development\jdk
+# default
+MAKE_VERSION := 3.82.90
+# makefile
+.DEFAULT_GOAL := 
+# environment
+GOROOT = D:\development\Go
+# environment
+CLASSPATH = .;D:\development\jdk\lib;D:\development\jdk\lib\dt.jar;D:\development\jdk\lib\tools.jar;
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\86157\AppData\Local
+# environment
+PSMODULEPATH = C:\Users\86157\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\a2c07f641dfb8e4c4c69d54811bca7d5-1.69.0-main-sock
+# environment
+HOMEPATH = \Users\86157
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\86157\AppData\Roaming
+# environment
+TEMP = C:\Users\86157\AppData\Local\Temp
+# environment
+WT_PROFILE_ID = {61c54bbd-c2c6-5271-96e7-009a87ff44bf}
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+VCPKG_ROOT = D:\development\vcpkg\vcpkg-master
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+CARGO_HOME = D:\development\Rust\cargo
+# environment
+VIRTUAL_ENV_DISABLE_PROMPT = 1
+# automatic
+^F = $(notdir $^)
+# environment
+NVCUDASAMPLES11_1_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.1
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 6001
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 23
+# environment
+VSCODE_PID = 20152
+# environment
+STARSHIP_SHELL = powershell
+# environment
+RUSTUP_UPDATE_ROOT = http://mirrors.ustc.edu.cn/rust-static/rustup
+# environment
+USERDOMAIN_ROAMINGPROFILE = LAPTOP-6KEM1RO2
+# variable set hash-table stats:
+# Load=114/1024=11%, Rehash=0, Collisions=14/129=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\Users\86157\AppData\Local\GitHubDesktop\bin (key C:/Users/86157/AppData/Local/GitHubDesktop/bin, mtime 1657334253): 4 files, no impossibilities.
+# D:\development\vcpkg\sciter.dll (key D:/development/vcpkg/sciter.dll, mtime 1639738152): could not be opened.
+# D:\development\Go\bin (key D:/development/Go/bin, mtime 1633924952): 4 files, no impossibilities.
+# C:\Users\86157\AppData\Local\Programs\Microsoft VS Code\bin: could not be stat'd.
+# C:\Users\86157\.fly\bin (key C:/Users/86157/.fly/bin, mtime 1651978072): 5 files, no impossibilities.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1599636236): 5 files, no impossibilities.
+# D:\development\qemu (key D:/development/qemu, mtime 1657156697): 196 files, no impossibilities.
+# D:\development\java\bin: could not be stat'd.
+# C:\Program Files\starship\bin\ (key C:/Program Files/starship/bin/, mtime 1657069844): 3 files, no impossibilities.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1652325921): 31 files, no impossibilities.
+# C:\WINDOWS\System32\Wbem (key C:/WINDOWS/System32/Wbem, mtime 1652325972): 154 files, no impossibilities.
+# C:\Users\86157\.dotnet\tools: could not be stat'd.
+# . (key d:/work/code-slicer, mtime 1657626955): 36 files, no impossibilities.
+# D:\development\flutter\bin (key D:/development/flutter/bin, mtime 1639683170): 9 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/, mtime 1639879207): 7 files, no impossibilities.
+# C:\Users\86157\AppData\Local\bin\NASM (key C:/Users/86157/AppData/Local/bin/NASM, mtime 1657157314): 18 files, no impossibilities.
+# D:\development\vcpkg\vcpkg-master (key D:/development/vcpkg/vcpkg-master, mtime 1639743795): 29 files, no impossibilities.
+# D:\development\nodejs\ (key D:/development/nodejs/, mtime 1650515807): 13 files, no impossibilities.
+# C:\Windows\System32\OpenSSH\: could not be stat'd.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1599636246): 10 files, no impossibilities.
+# C:\WINDOWS (key C:/WINDOWS, mtime 1657377359): 126 files, no impossibilities.
+# D:\development\protoc-3.20.0-win64\bin (key D:/development/protoc-3.20.0-win64/bin, mtime 1648245140): 3 files, no impossibilities.
+# D:\development\sqlite\sqlite-tools (key D:/development/sqlite/sqlite-tools, mtime 1592491051): 5 files, no impossibilities.
+# C:\ProgramData\chocolatey\bin (key C:/ProgramData/chocolatey/bin, mtime 1636697133): 13 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1657377359): 126 files, no impossibilities.
+# D:\development\MinGW\bin (key D:/development/MinGW/bin, mtime 1620182964): 57 files, no impossibilities.
+# D:\development\jdk\bin (key D:/development/jdk/bin, mtime 1654092759): 124 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\130\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/130/Tools/Binn/, mtime 1639879202): 4 files, no impossibilities.
+# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1652325972): 154 files, no impossibilities.
+# D:\development\LLVM\bin (key D:/development/LLVM/bin, mtime 1635502217): 118 files, no impossibilities.
+# D:\development\vcpkg\vcpkg-master\downloads\cmake-3.22.1-windows-x86_64\bin (key D:/development/vcpkg/vcpkg-master/downloads/cmake-3.22.1-windows-x86_64/bin, mtime 1638894668): 7 files, no impossibilities.
+# D:\development\Rust\cargo\bin (key D:/development/Rust/cargo/bin, mtime 1653106139): 32 files, no impossibilities.
+# C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1654092760): 6 files, no impossibilities.
+# C:\Users\86157\AppData\Roaming\npm (key C:/Users/86157/AppData/Roaming/npm, mtime 1652274696): 21 files, no impossibilities.
+# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1639878343): 10 files, no impossibilities.
+# D:\development\Git\cmd (key D:/development/Git/cmd, mtime 1655816620): 8 files, no impossibilities.
+# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (key C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 1652325921): 31 files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1657584176): 3107 files, no impossibilities.
+# D:\Software\Microsoft VS Code\bin (key D:/Software/Microsoft VS Code/bin, mtime 1657329107): 4 files, no impossibilities.
+# D:\development\python3\ (key D:/development/python3/, mtime 1620024703): 19 files, no impossibilities.
+# C:\Users\86157\AppData\Local\Microsoft\WindowsApps (key C:/Users/86157/AppData/Local/Microsoft/WindowsApps, mtime 1657080278): 34 files, no impossibilities.
+# C:\WINDOWS\System32\OpenSSH\: could not be stat'd.
+# D:\development\python3\Scripts\ (key D:/development/python3/Scripts/, mtime 1653631942): 89 files, no impossibilities.
+# C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1657584176): 3107 files, no impossibilities.
+
+# 7729 files, no impossibilities in 44 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 8 (7) / strings = 4161 / storage = 64048 B / avg = 15 B
+# current buf: size = 8174 B / used = 6886 B / count = 431 / avg = 15 B
+# other used: total = 55874 B / count = 3730 / avg = 14 B
+# other free: total = 56 B / max = 13 B / min = 4 B / avg = 8 B
+
+# strcache performance: lookups = 7780 / hit rate = 46%
+# hash-table stats:
+# Load=4161/8192=51%, Rehash=0, Collisions=3015/7780=39%
+# Finished Make data base on Tue Jul 12 19:55:56 2022
+
+ 
+make.exe: *** No rule to make target 'all'.  Stop.
+
